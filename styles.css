@@ -55,20 +55,22 @@ nav .nav-links a {
     background-color: #fff;
     padding: 50px 0;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     min-height: 60vh;
 }
 
 .hero-content {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .hero-text {
     width: 50%;
+    padding-right: 20px;
 }
 
 .hero-text h2 {
@@ -82,6 +84,8 @@ nav .nav-links a {
 
 .hero-image {
     width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .hero-image img {
