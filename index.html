@@ -17,7 +17,7 @@
                 <span></span>
                 <span></span>
             </div>
-            <ul class="nav-links">
+            <ul class="nav-links" id="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#portfolio">Projects</a></li>
@@ -90,4 +90,37 @@
                 </div>
                 <div class="project">
                     <h3>Project 10 - Research and Analysis</h3>
-                    <p>Conduct⬤
+                    <p>Conducted research and provided detailed reports for various clients, supporting their decision-making processes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:ajekuko@example.com">ajekuko@example.com</a></p>
+            <p>Phone: <a href="tel:+1234567890">+123 456 7890</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/ajekuko" target="_blank">LinkedIn Profile</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ajekuko Stephinie Uvie. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu -->
+    <script>
+        const menuToggle = document.getElementById('mobile-menu');
+        const navLinks = document.getElementById('nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
