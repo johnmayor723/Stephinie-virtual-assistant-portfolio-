@@ -73,6 +73,9 @@ nav .nav-links a {
         width: 100%;
         background-color: #e0e0e0;
         padding: 10px;
+        position: absolute;
+        top: 60px; /* Adjust based on your navbar height */
+        left: 0;
     }
 
     .nav-links.active {
